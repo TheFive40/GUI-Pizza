@@ -1,0 +1,80 @@
+.bordered-hbox {
+    -fx-border-color: #EAEAEA;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+}
+.button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 20px;
+    -fx-padding: 8px 16px;
+}
+
+#btnEnviar {
+    -fx-background-color: #4CAF50; /* Verde */
+}
+
+#btnCancelar {
+    -fx-background-color: #E57373; /* Rojo claro */
+
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.checkbox {
+    -fx-padding: 5px;
+}
+
+.label {
+     -fx-font-family: "Arial", sans-serif;
+        -fx-font-size: 18px;
+        -fx-font-weight: bold;
+        -fx-text-fill: #333333; /* Color minimalista */
+        -fx-font-style: italic;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 2px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+.radio-button {
+    -fx-padding: 5px;
+    -fx-text-fill: #333333;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+}
+.root {
+ -fx-background-image: url("\background.jpg");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+/* Estilo del título */
+.title-label {
+ -fx-font-family: "Arial Black", sans-serif;
+     -fx-font-size: 32px;
+     -fx-text-fill: #FFFFFF;
+     -fx-padding: 10px;
+     -fx-background-color: #4CAF50;
+     -fx-border-color: #333333;
+     -fx-border-width: 2px;
+     -fx-border-radius: 4px;
+     -fx-alignment: center;
+}
+
+
